@@ -1,0 +1,1 @@
+def fail(): return 1/0

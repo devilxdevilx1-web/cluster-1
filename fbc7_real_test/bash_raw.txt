@@ -1,0 +1,21 @@
+--- SOVEREIGN AUDIT: /bin/bash ---
+MEM%: 26.932
+CTRL%: 25.778
+ARITH%: 11.225
+ADDR%: 7.134
+MOV%: 16.292
+CMP%: 7.329
+BIT%: 1.951
+FLOAT%: 0.001
+SIMD%: 0.0
+SEC%: 1.794
+SYS%: 0.259
+vocab_size: 108
+instr_entropy: 4.4563
+top500_tri_cover: 68.086
+unique_3grams: 9741
+unique_cat_3grams: 539
+total_instrs: 117760
+top_cat_codon: MEM → MEM → MEM
+halt_sig: ldp → ldp → ldp → ldp → add
+struct_hash: 1195ebee36b487c5

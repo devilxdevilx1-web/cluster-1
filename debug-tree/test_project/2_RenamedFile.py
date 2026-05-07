@@ -1,0 +1,1 @@
+from old_name import tool

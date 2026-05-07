@@ -1,0 +1,619 @@
+[
+  {
+    "repo": "flask",
+    "cases": [
+      {
+        "file": "src/flask/testing.py",
+        "symbol": "EnvironBuilder",
+        "mode": "standard",
+        "success": true,
+        "conf": 17.32
+      },
+      {
+        "file": "src/flask/testing_renamed.py",
+        "old_file": "src/flask/testing.py",
+        "symbol": "EnvironBuilder",
+        "mode": "rename",
+        "success": true,
+        "conf": 41.87
+      },
+      {
+        "file": "examples/celery/src/task_app/views.py",
+        "symbol": "result",
+        "mode": "standard",
+        "success": false,
+        "conf": 6.09
+      },
+      {
+        "file": "examples/celery/src/task_app/views_renamed.py",
+        "old_file": "examples/celery/src/task_app/views.py",
+        "symbol": "result",
+        "mode": "rename",
+        "success": false,
+        "conf": 6.09
+      }
+    ]
+  },
+  {
+    "repo": "marshmallow",
+    "cases": [
+      {
+        "file": "src/marshmallow/fields.py",
+        "symbol": "Field",
+        "mode": "standard",
+        "success": true,
+        "conf": 11.49
+      },
+      {
+        "file": "src/marshmallow/fields_renamed.py",
+        "old_file": "src/marshmallow/fields.py",
+        "symbol": "Field",
+        "mode": "rename",
+        "success": true,
+        "conf": 34.27
+      },
+      {
+        "file": "examples/package_json_example.py",
+        "symbol": "Version",
+        "mode": "standard",
+        "success": false,
+        "conf": 4.1
+      },
+      {
+        "file": "examples/package_json_example_renamed.py",
+        "old_file": "examples/package_json_example.py",
+        "symbol": "Version",
+        "mode": "rename",
+        "success": false,
+        "conf": 4.1
+      }
+    ]
+  },
+  {
+    "repo": "pytest",
+    "cases": [
+      {
+        "file": "src/_pytest/scope.py",
+        "symbol": "Scope",
+        "mode": "standard",
+        "success": true,
+        "conf": 3.34
+      },
+      {
+        "file": "src/_pytest/scope_renamed.py",
+        "old_file": "src/_pytest/scope.py",
+        "symbol": "Scope",
+        "mode": "rename",
+        "success": true,
+        "conf": 33.86
+      },
+      {
+        "file": "testing/test_assertrewrite.py",
+        "symbol": "rewrite",
+        "mode": "standard",
+        "success": true,
+        "conf": 3.71
+      },
+      {
+        "file": "testing/test_assertrewrite_renamed.py",
+        "old_file": "testing/test_assertrewrite.py",
+        "symbol": "rewrite",
+        "mode": "rename",
+        "success": true,
+        "conf": 35.42
+      },
+      {
+        "file": "testing/example_scripts/collect/package_init_given_as_arg/pkg/__init__.py",
+        "symbol": "test_init",
+        "mode": "standard",
+        "success": false,
+        "conf": 4.49
+      },
+      {
+        "file": "testing/example_scripts/collect/package_init_given_as_arg/pkg/__init___renamed.py",
+        "old_file": "testing/example_scripts/collect/package_init_given_as_arg/pkg/__init__.py",
+        "symbol": "test_init",
+        "mode": "rename",
+        "success": true,
+        "conf": 40.55
+      }
+    ]
+  },
+  {
+    "repo": "starlette",
+    "cases": [
+      {
+        "file": "starlette/authentication.py",
+        "symbol": "has_required_scope",
+        "mode": "standard",
+        "success": true,
+        "conf": 22.76
+      },
+      {
+        "file": "starlette/authentication_renamed.py",
+        "old_file": "starlette/authentication.py",
+        "symbol": "has_required_scope",
+        "mode": "rename",
+        "success": true,
+        "conf": 41.98
+      },
+      {
+        "file": "starlette/_utils.py",
+        "symbol": "is_async_callable",
+        "mode": "standard",
+        "success": true,
+        "conf": 6.04
+      },
+      {
+        "file": "starlette/_utils_renamed.py",
+        "old_file": "starlette/_utils.py",
+        "symbol": "is_async_callable",
+        "mode": "rename",
+        "success": true,
+        "conf": 32.99
+      },
+      {
+        "file": "starlette/requests.py",
+        "symbol": "cookie_parser",
+        "mode": "standard",
+        "success": true,
+        "conf": 22.76
+      },
+      {
+        "file": "starlette/requests_renamed.py",
+        "old_file": "starlette/requests.py",
+        "symbol": "cookie_parser",
+        "mode": "rename",
+        "success": true,
+        "conf": 41.98
+      }
+    ]
+  },
+  {
+    "repo": "simplejson",
+    "cases": [
+      {
+        "file": "simplejson/raw_json.py",
+        "symbol": "RawJSON",
+        "mode": "standard",
+        "success": true,
+        "conf": 14.47
+      },
+      {
+        "file": "simplejson/raw_json_renamed.py",
+        "old_file": "simplejson/raw_json.py",
+        "symbol": "RawJSON",
+        "mode": "rename",
+        "success": true,
+        "conf": 41.77
+      },
+      {
+        "file": "simplejson/__init__.py",
+        "symbol": "dump",
+        "mode": "standard",
+        "success": true,
+        "conf": 6.44
+      },
+      {
+        "file": "simplejson/__init___renamed.py",
+        "old_file": "simplejson/__init__.py",
+        "symbol": "dump",
+        "mode": "rename",
+        "success": true,
+        "conf": 33.96
+      },
+      {
+        "file": "simplejson/ordered_dict.py",
+        "symbol": "OrderedDict",
+        "mode": "standard",
+        "success": true,
+        "conf": 7.9
+      },
+      {
+        "file": "simplejson/ordered_dict_renamed.py",
+        "old_file": "simplejson/ordered_dict.py",
+        "symbol": "OrderedDict",
+        "mode": "rename",
+        "success": true,
+        "conf": 34.67
+      }
+    ]
+  },
+  {
+    "repo": "click",
+    "cases": [
+      {
+        "file": "examples/complex/complex/commands/cmd_init.py",
+        "symbol": "cli",
+        "mode": "standard",
+        "success": false,
+        "conf": 2.45
+      },
+      {
+        "file": "examples/complex/complex/commands/cmd_init_renamed.py",
+        "old_file": "examples/complex/complex/commands/cmd_init.py",
+        "symbol": "cli",
+        "mode": "rename",
+        "success": false,
+        "conf": 2.45
+      },
+      {
+        "file": "src/click/_textwrap.py",
+        "symbol": "TextWrapper",
+        "mode": "standard",
+        "success": true,
+        "conf": 16.45
+      },
+      {
+        "file": "src/click/_textwrap_renamed.py",
+        "old_file": "src/click/_textwrap.py",
+        "symbol": "TextWrapper",
+        "mode": "rename",
+        "success": true,
+        "conf": 41.84
+      },
+      {
+        "file": "src/click/formatting.py",
+        "symbol": "measure_table",
+        "mode": "standard",
+        "success": true,
+        "conf": 20.69
+      },
+      {
+        "file": "src/click/formatting_renamed.py",
+        "old_file": "src/click/formatting.py",
+        "symbol": "measure_table",
+        "mode": "rename",
+        "success": true,
+        "conf": 41.94
+      }
+    ]
+  },
+  {
+    "repo": "requests",
+    "cases": [
+      {
+        "file": "src/requests/_auth_internal.py",
+        "symbol": "AuthBase",
+        "mode": "standard",
+        "success": true,
+        "conf": 13.04
+      },
+      {
+        "file": "src/requests/_internal_utils.py",
+        "symbol": "to_native_string",
+        "mode": "standard",
+        "success": true,
+        "conf": 9.15
+      },
+      {
+        "file": "src/requests/_internal_utils_renamed.py",
+        "old_file": "src/requests/_internal_utils.py",
+        "symbol": "to_native_string",
+        "mode": "rename",
+        "success": true,
+        "conf": 34.75
+      },
+      {
+        "file": "src/requests/hooks.py",
+        "symbol": "default_hooks",
+        "mode": "standard",
+        "success": true,
+        "conf": 9.32
+      },
+      {
+        "file": "src/requests/hooks_renamed.py",
+        "old_file": "src/requests/hooks.py",
+        "symbol": "default_hooks",
+        "mode": "rename",
+        "success": true,
+        "conf": 35.45
+      }
+    ]
+  },
+  {
+    "repo": "httpx",
+    "cases": [
+      {
+        "file": "httpx/_exceptions.py",
+        "symbol": "HTTPError",
+        "mode": "standard",
+        "success": true,
+        "conf": 20.63
+      },
+      {
+        "file": "httpx/_exceptions_renamed.py",
+        "old_file": "httpx/_exceptions.py",
+        "symbol": "HTTPError",
+        "mode": "rename",
+        "success": true,
+        "conf": 41.94
+      },
+      {
+        "file": "httpx/_multipart.py",
+        "symbol": "get_multipart_boundary_from_content_type",
+        "mode": "standard",
+        "success": true,
+        "conf": 20.63
+      },
+      {
+        "file": "httpx/_multipart_renamed.py",
+        "old_file": "httpx/_multipart.py",
+        "symbol": "get_multipart_boundary_from_content_type",
+        "mode": "rename",
+        "success": true,
+        "conf": 41.94
+      },
+      {
+        "file": "httpx/_transports/asgi.py",
+        "symbol": "is_running_trio",
+        "mode": "standard",
+        "success": true,
+        "conf": 23.12
+      },
+      {
+        "file": "httpx/_transports/asgi_renamed.py",
+        "old_file": "httpx/_transports/asgi.py",
+        "symbol": "is_running_trio",
+        "mode": "rename",
+        "success": true,
+        "conf": 41.99
+      }
+    ]
+  },
+  {
+    "repo": "drf",
+    "cases": [
+      {
+        "file": "rest_framework/mixins.py",
+        "symbol": "CreateModelMixin",
+        "mode": "standard",
+        "success": true,
+        "conf": 12.02
+      },
+      {
+        "file": "rest_framework/mixins_renamed.py",
+        "old_file": "rest_framework/mixins.py",
+        "symbol": "CreateModelMixin",
+        "mode": "rename",
+        "success": true,
+        "conf": 41.66
+      },
+      {
+        "file": "rest_framework/settings.py",
+        "symbol": "perform_import",
+        "mode": "standard",
+        "success": true,
+        "conf": 11.84
+      },
+      {
+        "file": "rest_framework/settings_renamed.py",
+        "old_file": "rest_framework/settings.py",
+        "symbol": "perform_import",
+        "mode": "rename",
+        "success": true,
+        "conf": 32.23
+      },
+      {
+        "file": "runtests.py",
+        "symbol": "split_class_and_function",
+        "mode": "standard",
+        "success": true,
+        "conf": 19.47
+      },
+      {
+        "file": "runtests_renamed.py",
+        "old_file": "runtests.py",
+        "symbol": "split_class_and_function",
+        "mode": "rename",
+        "success": true,
+        "conf": 41.92
+      }
+    ]
+  },
+  {
+    "repo": "fastapi",
+    "cases": [
+      {
+        "file": "scripts/doc_parsing_utils.py",
+        "symbol": "CodeIncludeInfo",
+        "mode": "standard",
+        "success": false,
+        "conf": 24.0
+      },
+      {
+        "file": "scripts/doc_parsing_utils_renamed.py",
+        "old_file": "scripts/doc_parsing_utils.py",
+        "symbol": "CodeIncludeInfo",
+        "mode": "rename",
+        "success": false,
+        "conf": 24.0
+      },
+      {
+        "file": "fastapi/security/utils.py",
+        "symbol": "get_authorization_scheme_param",
+        "mode": "standard",
+        "success": true,
+        "conf": 18.11
+      },
+      {
+        "file": "fastapi/security/utils_renamed.py",
+        "old_file": "fastapi/security/utils.py",
+        "symbol": "get_authorization_scheme_param",
+        "mode": "rename",
+        "success": true,
+        "conf": 41.89
+      }
+    ]
+  },
+  {
+    "repo": "pydantic",
+    "cases": [
+      {
+        "file": "pydantic/_internal/_serializers.py",
+        "symbol": "serialize_sequence_via_list",
+        "mode": "standard",
+        "success": true,
+        "conf": 8.16
+      },
+      {
+        "file": "pydantic/_internal/_serializers_renamed.py",
+        "old_file": "pydantic/_internal/_serializers.py",
+        "symbol": "serialize_sequence_via_list",
+        "mode": "rename",
+        "success": true,
+        "conf": 41.34
+      },
+      {
+        "file": "pydantic/v1/decorator.py",
+        "symbol": "validate_arguments",
+        "mode": "standard",
+        "success": true,
+        "conf": 3.46
+      },
+      {
+        "file": "pydantic/v1/decorator_renamed.py",
+        "old_file": "pydantic/v1/decorator.py",
+        "symbol": "validate_arguments",
+        "mode": "rename",
+        "success": true,
+        "conf": 35.31
+      }
+    ]
+  },
+  {
+    "repo": "black",
+    "cases": [
+      {
+        "file": "src/blackd/middlewares.py",
+        "symbol": "cors",
+        "mode": "standard",
+        "success": true,
+        "conf": 21.05
+      },
+      {
+        "file": "src/blackd/middlewares_renamed.py",
+        "old_file": "src/blackd/middlewares.py",
+        "symbol": "cors",
+        "mode": "rename",
+        "success": true,
+        "conf": 41.95
+      },
+      {
+        "file": "src/black/concurrency.py",
+        "symbol": "maybe_use_uvloop",
+        "mode": "standard",
+        "success": true,
+        "conf": 21.05
+      },
+      {
+        "file": "src/black/concurrency_renamed.py",
+        "old_file": "src/black/concurrency.py",
+        "symbol": "maybe_use_uvloop",
+        "mode": "rename",
+        "success": true,
+        "conf": 41.95
+      },
+      {
+        "file": "src/blib2to3/pygram.py",
+        "symbol": "Symbols",
+        "mode": "standard",
+        "success": true,
+        "conf": 23.33
+      },
+      {
+        "file": "src/blib2to3/pygram_renamed.py",
+        "old_file": "src/blib2to3/pygram.py",
+        "symbol": "Symbols",
+        "mode": "rename",
+        "success": true,
+        "conf": 41.99
+      }
+    ]
+  },
+  {
+    "repo": "django",
+    "cases": [
+      {
+        "file": "django/contrib/contenttypes/apps.py",
+        "symbol": "ContentTypesConfig",
+        "mode": "standard",
+        "success": true,
+        "conf": 7.6
+      },
+      {
+        "file": "django/contrib/contenttypes/apps_renamed.py",
+        "old_file": "django/contrib/contenttypes/apps.py",
+        "symbol": "ContentTypesConfig",
+        "mode": "rename",
+        "success": true,
+        "conf": 41.27
+      },
+      {
+        "file": "django/contrib/flatpages/templatetags/flatpages.py",
+        "symbol": "FlatpageNode",
+        "mode": "standard",
+        "success": true,
+        "conf": 7.54
+      },
+      {
+        "file": "django/contrib/flatpages/templatetags/flatpages_renamed.py",
+        "old_file": "django/contrib/flatpages/templatetags/flatpages.py",
+        "symbol": "FlatpageNode",
+        "mode": "rename",
+        "success": true,
+        "conf": 41.26
+      }
+    ]
+  },
+  {
+    "repo": "bottle",
+    "cases": [
+      {
+        "file": "bottle.py",
+        "symbol": "tob",
+        "mode": "standard",
+        "success": true,
+        "conf": 15.0
+      },
+      {
+        "file": "bottle_renamed.py",
+        "old_file": "bottle.py",
+        "symbol": "tob",
+        "mode": "rename",
+        "success": true,
+        "conf": 33.0
+      },
+      {
+        "file": "test/test_mount.py",
+        "symbol": "TestAppMounting",
+        "mode": "standard",
+        "success": false,
+        "conf": 24.0
+      },
+      {
+        "file": "test/test_mount_renamed.py",
+        "old_file": "test/test_mount.py",
+        "symbol": "TestAppMounting",
+        "mode": "rename",
+        "success": false,
+        "conf": 24.0
+      },
+      {
+        "file": "test/test_app.py",
+        "symbol": "TestApplicationObject",
+        "mode": "standard",
+        "success": false,
+        "conf": 24.0
+      },
+      {
+        "file": "test/test_app_renamed.py",
+        "old_file": "test/test_app.py",
+        "symbol": "TestApplicationObject",
+        "mode": "rename",
+        "success": false,
+        "conf": 24.0
+      }
+    ]
+  }
+]

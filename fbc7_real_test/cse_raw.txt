@@ -1,0 +1,21 @@
+--- SOVEREIGN AUDIT: /Users/kanchetidevieswar/hybrid/coding-sector-engine/fbc7_v9_binary ---
+MEM%: 25.595
+CTRL%: 17.857
+ARITH%: 19.643
+ADDR%: 3.571
+MOV%: 22.619
+CMP%: 5.952
+BIT%: 3.571
+FLOAT%: 0.0
+SIMD%: 0.0
+SEC%: 0.0
+SYS%: 0.0
+vocab_size: 34
+instr_entropy: 4.1015
+top500_tri_cover: 100.0
+unique_3grams: 125
+unique_cat_3grams: 84
+total_instrs: 168
+top_cat_codon: MEM → MEM → MEM
+halt_sig: mov → add → ldp → ldp → ldp
+struct_hash: 5b80bf6d97e9d47b

@@ -1,0 +1,1 @@
+--- SOVEREIGN AUDIT: /System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate ---

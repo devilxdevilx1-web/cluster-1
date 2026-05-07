@@ -1,0 +1,724 @@
+{
+  "version": "1.0",
+  "theory": "Software is finite. All programs reduce to a bounded vocabulary of instruction patterns.",
+  "ARM64": {
+    "arch": "ARM64",
+    "total_instructions": 614230,
+    "layers": {
+      "1gram": {
+        "raw_unique": 178,
+        "raw_needed_95": 25,
+        "cat_unique": 9,
+        "cat_needed_95": 6,
+        "compression_ratio": 29.7,
+        "top_10_raw": [
+          [
+            "mov",
+            97754
+          ],
+          [
+            "add",
+            84986
+          ],
+          [
+            "ldr",
+            67594
+          ],
+          [
+            "bl",
+            58602
+          ],
+          [
+            "adrp",
+            45876
+          ],
+          [
+            "str",
+            40710
+          ],
+          [
+            "stp",
+            28908
+          ],
+          [
+            "ldp",
+            25479
+          ],
+          [
+            "cbz",
+            22108
+          ],
+          [
+            "cmp",
+            22070
+          ]
+        ],
+        "top_10_cat": [
+          [
+            "MEM",
+            182721
+          ],
+          [
+            "CTRL",
+            142233
+          ],
+          [
+            "MOV",
+            98853
+          ],
+          [
+            "ARITH",
+            96954
+          ],
+          [
+            "ADDR",
+            45878
+          ],
+          [
+            "CMP",
+            30488
+          ],
+          [
+            "BIT",
+            12955
+          ],
+          [
+            "OTH",
+            3947
+          ],
+          [
+            "FLOAT",
+            201
+          ]
+        ]
+      },
+      "2gram": {
+        "raw_unique": 3221,
+        "raw_needed_95": 424,
+        "cat_unique": 79,
+        "cat_needed_95": 29,
+        "compression_ratio": 111.1,
+        "top_10_raw": [
+          [
+            "adrp add",
+            38668
+          ],
+          [
+            "mov bl",
+            30912
+          ],
+          [
+            "mov mov",
+            30862
+          ],
+          [
+            "add mov",
+            18925
+          ],
+          [
+            "add bl",
+            15500
+          ],
+          [
+            "stp stp",
+            14805
+          ],
+          [
+            "ldp ldp",
+            14452
+          ],
+          [
+            "bl mov",
+            13155
+          ],
+          [
+            "ldr ldr",
+            11876
+          ],
+          [
+            "str str",
+            10349
+          ]
+        ],
+        "top_10_cat": [
+          [
+            "MEM MEM",
+            84089
+          ],
+          [
+            "CTRL MEM",
+            44383
+          ],
+          [
+            "MOV CTRL",
+            39031
+          ],
+          [
+            "ADDR ARITH",
+            38670
+          ],
+          [
+            "MOV MOV",
+            31961
+          ],
+          [
+            "CTRL MOV",
+            31746
+          ],
+          [
+            "MEM CTRL",
+            31280
+          ],
+          [
+            "ARITH MEM",
+            25126
+          ],
+          [
+            "ARITH CTRL",
+            25006
+          ],
+          [
+            "CTRL CTRL",
+            24966
+          ]
+        ]
+      },
+      "3gram": {
+        "raw_unique": 20260,
+        "raw_needed_95": 4930,
+        "cat_unique": 542,
+        "cat_needed_95": 145,
+        "compression_ratio": 139.7,
+        "top_10_raw": [
+          [
+            "mov mov bl",
+            11783
+          ],
+          [
+            "mov mov mov",
+            11686
+          ],
+          [
+            "add mov bl",
+            9385
+          ],
+          [
+            "stp stp stp",
+            8477
+          ],
+          [
+            "ldp ldp ldp",
+            8370
+          ],
+          [
+            "adrp add bl",
+            7814
+          ],
+          [
+            "mov bl mov",
+            7380
+          ],
+          [
+            "adrp add mov",
+            6863
+          ],
+          [
+            "add mov mov",
+            6834
+          ],
+          [
+            "str adrp add",
+            6477
+          ]
+        ],
+        "top_10_cat": [
+          [
+            "MEM MEM MEM",
+            44091
+          ],
+          [
+            "CTRL ADDR ARITH",
+            16483
+          ],
+          [
+            "CTRL MEM MEM",
+            14456
+          ],
+          [
+            "MEM MEM ARITH",
+            14195
+          ],
+          [
+            "MOV MOV CTRL",
+            13077
+          ],
+          [
+            "ARITH MEM MEM",
+            12705
+          ],
+          [
+            "MEM ADDR ARITH",
+            12590
+          ],
+          [
+            "CTRL MEM CTRL",
+            12496
+          ],
+          [
+            "ADDR ARITH MEM",
+            12318
+          ],
+          [
+            "MOV MOV MOV",
+            12167
+          ]
+        ]
+      },
+      "4gram": {
+        "raw_unique": 65670,
+        "raw_needed_95": 34959,
+        "cat_unique": 3104,
+        "cat_needed_95": 755,
+        "compression_ratio": 87.0,
+        "top_10_raw": [
+          [
+            "mov mov mov mov",
+            4660
+          ],
+          [
+            "adrp add mov bl",
+            4615
+          ],
+          [
+            "stp stp stp stp",
+            4581
+          ],
+          [
+            "ldp ldp ldp ldp",
+            4445
+          ],
+          [
+            "mov mov mov bl",
+            4285
+          ],
+          [
+            "adrp add adrp add",
+            4241
+          ],
+          [
+            "stp stp add mov",
+            3900
+          ],
+          [
+            "stp stp stp add",
+            3510
+          ],
+          [
+            "mov mov bl mov",
+            2975
+          ],
+          [
+            "add mov mov mov",
+            2959
+          ]
+        ],
+        "top_10_cat": [
+          [
+            "MEM MEM MEM MEM",
+            25001
+          ],
+          [
+            "MEM MEM MEM ARITH",
+            8433
+          ],
+          [
+            "ARITH MEM MEM MEM",
+            7623
+          ],
+          [
+            "CTRL ADDR ARITH CTRL",
+            6187
+          ],
+          [
+            "MEM MEM ADDR ARITH",
+            6184
+          ],
+          [
+            "ADDR ARITH MEM MEM",
+            5444
+          ],
+          [
+            "CTRL MEM MEM MEM",
+            5403
+          ],
+          [
+            "CTRL MEM CTRL MEM",
+            5401
+          ],
+          [
+            "MEM CTRL ADDR ARITH",
+            5100
+          ],
+          [
+            "MEM ADDR ARITH MEM",
+            5096
+          ]
+        ]
+      }
+    }
+  },
+  "x86-64": {
+    "arch": "x86-64",
+    "total_instructions": 218657,
+    "layers": {
+      "1gram": {
+        "raw_unique": 97,
+        "raw_needed_95": 23,
+        "cat_unique": 6,
+        "cat_needed_95": 4,
+        "compression_ratio": 24.2,
+        "top_10_raw": [
+          [
+            "mov",
+            39175
+          ],
+          [
+            "ldr",
+            35851
+          ],
+          [
+            "bl",
+            17927
+          ],
+          [
+            "adrp",
+            15389
+          ],
+          [
+            "str",
+            13956
+          ],
+          [
+            "add",
+            13672
+          ],
+          [
+            "b",
+            10148
+          ],
+          [
+            "cmp",
+            9511
+          ],
+          [
+            "cbz",
+            9388
+          ],
+          [
+            "ldp",
+            9066
+          ]
+        ],
+        "top_10_cat": [
+          [
+            "OTH",
+            149686
+          ],
+          [
+            "MEM",
+            39175
+          ],
+          [
+            "ARITH",
+            15966
+          ],
+          [
+            "CMP",
+            9511
+          ],
+          [
+            "CTRL",
+            2806
+          ],
+          [
+            "BIT",
+            1513
+          ]
+        ]
+      },
+      "2gram": {
+        "raw_unique": 1977,
+        "raw_needed_95": 391,
+        "cat_unique": 34,
+        "cat_needed_95": 11,
+        "compression_ratio": 179.7,
+        "top_10_raw": [
+          [
+            "ldr ldr",
+            9654
+          ],
+          [
+            "mov mov",
+            8274
+          ],
+          [
+            "mov bl",
+            8142
+          ],
+          [
+            "bl mov",
+            6065
+          ],
+          [
+            "adrp ldr",
+            5216
+          ],
+          [
+            "mov ldr",
+            4691
+          ],
+          [
+            "ldp ldp",
+            3949
+          ],
+          [
+            "ldr str",
+            3797
+          ],
+          [
+            "ldr cbz",
+            3291
+          ],
+          [
+            "adrp mov",
+            3251
+          ]
+        ],
+        "top_10_cat": [
+          [
+            "OTH OTH",
+            100404
+          ],
+          [
+            "MEM OTH",
+            27346
+          ],
+          [
+            "OTH MEM",
+            27026
+          ],
+          [
+            "OTH ARITH",
+            11363
+          ],
+          [
+            "ARITH OTH",
+            10158
+          ],
+          [
+            "CMP OTH",
+            9074
+          ],
+          [
+            "MEM MEM",
+            8274
+          ],
+          [
+            "OTH CMP",
+            7369
+          ],
+          [
+            "ARITH MEM",
+            2782
+          ],
+          [
+            "OTH CTRL",
+            2527
+          ]
+        ]
+      },
+      "3gram": {
+        "raw_unique": 12186,
+        "raw_needed_95": 4616,
+        "cat_unique": 169,
+        "cat_needed_95": 35,
+        "compression_ratio": 348.2,
+        "top_10_raw": [
+          [
+            "mov bl mov",
+            3345
+          ],
+          [
+            "adrp ldr ldr",
+            3297
+          ],
+          [
+            "mov mov bl",
+            2976
+          ],
+          [
+            "ldr ldr ldr",
+            2451
+          ],
+          [
+            "mov mov mov",
+            2144
+          ],
+          [
+            "ldp ldp ldp",
+            1851
+          ],
+          [
+            "bl mov cbz",
+            1428
+          ],
+          [
+            "adrp mov add",
+            1304
+          ],
+          [
+            "adrp add bl",
+            1268
+          ],
+          [
+            "ldr ldr cbz",
+            1257
+          ]
+        ],
+        "top_10_cat": [
+          [
+            "OTH OTH OTH",
+            69207
+          ],
+          [
+            "OTH MEM OTH",
+            19055
+          ],
+          [
+            "MEM OTH OTH",
+            16729
+          ],
+          [
+            "OTH OTH MEM",
+            16035
+          ],
+          [
+            "MEM OTH MEM",
+            7268
+          ],
+          [
+            "OTH OTH ARITH",
+            7249
+          ],
+          [
+            "OTH ARITH OTH",
+            7103
+          ],
+          [
+            "OTH CMP OTH",
+            7018
+          ],
+          [
+            "ARITH OTH OTH",
+            6956
+          ],
+          [
+            "CMP OTH OTH",
+            5899
+          ]
+        ]
+      },
+      "4gram": {
+        "raw_unique": 39338,
+        "raw_needed_95": 28406,
+        "cat_unique": 624,
+        "cat_needed_95": 106,
+        "compression_ratio": 371.1,
+        "top_10_raw": [
+          [
+            "mov mov bl mov",
+            1268
+          ],
+          [
+            "mov bl mov cbz",
+            1019
+          ],
+          [
+            "adrp ldr ldr ldr",
+            960
+          ],
+          [
+            "mov mov mov bl",
+            940
+          ],
+          [
+            "adrp mov add bl",
+            924
+          ],
+          [
+            "ldp ldp ldp ldp",
+            861
+          ],
+          [
+            "mov adrp add bl",
+            802
+          ],
+          [
+            "adrp ldr ldr cbz",
+            775
+          ],
+          [
+            "ldp ldp ldp ret",
+            679
+          ],
+          [
+            "ldr ldr ldr ldr",
+            645
+          ]
+        ],
+        "top_10_cat": [
+          [
+            "OTH OTH OTH OTH",
+            49053
+          ],
+          [
+            "OTH MEM OTH OTH",
+            11800
+          ],
+          [
+            "OTH OTH MEM OTH",
+            11594
+          ],
+          [
+            "MEM OTH OTH OTH",
+            10858
+          ],
+          [
+            "OTH OTH OTH MEM",
+            10060
+          ],
+          [
+            "MEM OTH MEM OTH",
+            4997
+          ],
+          [
+            "OTH ARITH OTH OTH",
+            4934
+          ],
+          [
+            "OTH MEM OTH MEM",
+            4751
+          ],
+          [
+            "ARITH OTH OTH OTH",
+            4726
+          ],
+          [
+            "OTH OTH CMP OTH",
+            4698
+          ]
+        ]
+      }
+    }
+  }
+}

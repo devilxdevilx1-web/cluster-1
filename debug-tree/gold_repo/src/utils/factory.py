@@ -1,0 +1,1 @@
+def create(name):\n    obj = None\n    return getattr(obj, name)\n

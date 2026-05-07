@@ -1,0 +1,46 @@
+--- ORIGINAL ---
+--- SOVEREIGN AUDIT: /Users/kanchetidevieswar/hybrid/fbc7_real_test/python_original ---
+MEM%: 18.557
+CTRL%: 24.227
+ARITH%: 18.041
+ADDR%: 10.825
+MOV%: 23.711
+CMP%: 3.608
+BIT%: 0.0
+FLOAT%: 0.0
+SIMD%: 0.0
+SEC%: 0.0
+SYS%: 0.0
+vocab_size: 28
+instr_entropy: 3.6104
+top500_tri_cover: 100.0
+unique_3grams: 124
+unique_cat_3grams: 79
+total_instrs: 194
+top_cat_codon: ADDR → ARITH → MOV
+halt_sig: str → cbnz → ldp → ldp → add
+struct_hash: e61368ce45fb69ca
+
+
+--- CORRUPTED ---
+--- SOVEREIGN AUDIT: /Users/kanchetidevieswar/hybrid/fbc7_real_test/python_corrupted ---
+MEM%: 17.91
+CTRL%: 22.886
+ARITH%: 17.413
+ADDR%: 10.448
+MOV%: 22.886
+CMP%: 3.483
+BIT%: 0.0
+FLOAT%: 0.0
+SIMD%: 0.0
+SEC%: 0.0
+SYS%: 0.0
+vocab_size: 31
+instr_entropy: 3.7535
+top500_tri_cover: 100.0
+unique_3grams: 132
+unique_cat_3grams: 84
+total_instrs: 201
+top_cat_codon: ADDR → ARITH → MOV
+halt_sig: str → cbnz → ldp → mov → add
+struct_hash: 345a1696077c333f

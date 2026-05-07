@@ -1,0 +1,1 @@
+import asyncio\ndef get_val(): return None\nasync def start():\n    v = get_val()\n    return v.strip()\n

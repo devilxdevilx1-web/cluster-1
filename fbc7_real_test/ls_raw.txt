@@ -1,0 +1,21 @@
+--- SOVEREIGN AUDIT: /bin/ls ---
+MEM%: 25.945
+CTRL%: 22.715
+ARITH%: 13.157
+ADDR%: 10.005
+MOV%: 13.419
+CMP%: 7.511
+BIT%: 2.206
+FLOAT%: 0.0
+SIMD%: 0.0
+SEC%: 1.759
+SYS%: 0.236
+vocab_size: 75
+instr_entropy: 4.4985
+top500_tri_cover: 76.458
+unique_3grams: 1336
+unique_cat_3grams: 318
+total_instrs: 3808
+top_cat_codon: MEM → MEM → MEM
+halt_sig: ldr → ldr → cmp → b.le → mov
+struct_hash: 7125e2b09c6cc0f0

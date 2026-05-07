@@ -1,0 +1,1 @@
+def core_logic(): return 1/0

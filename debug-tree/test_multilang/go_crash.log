@@ -1,0 +1,5 @@
+panic: go error
+
+goroutine 1 [running]:
+main.main()
+	/Users/kanchetidevieswar/debug-tree/test_multilang/main.go:3 +0x20

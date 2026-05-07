@@ -1,0 +1,560 @@
+[
+  {
+    "repo": "django",
+    "scenario": "rename_resolution",
+    "predicted": "tests/model_forms/legacy_models.py",
+    "actual": "tests/model_forms/legacy_models.py",
+    "correct": true,
+    "confidence": 100.0,
+    "time": 7.682354211807251,
+    "top_candidates": [
+      "tests/model_forms/legacy_models.py",
+      "django/forms/models.py",
+      "django/contrib/auth/models.py",
+      "django/contrib/admin/models.py",
+      "django/contrib/flatpages/models.py"
+    ],
+    "score_distribution": [
+      11000000011.0,
+      1000000000.0,
+      1000000000.0,
+      1000000000.0,
+      1000000000.0
+    ]
+  },
+  {
+    "repo": "django",
+    "scenario": "multi_hop_none",
+    "predicted": "django/utils/functional.py",
+    "actual": "django/utils/functional.py",
+    "correct": true,
+    "confidence": 100.0,
+    "time": 7.509321928024292,
+    "top_candidates": [
+      "django/utils/functional.py",
+      "core.py",
+      "app.py"
+    ],
+    "score_distribution": [
+      300000.0,
+      200000.0,
+      100000.0
+    ]
+  },
+  {
+    "repo": "drf",
+    "scenario": "rename_resolution",
+    "predicted": "tests/browsable_api/legacy_test_browsable_api.py",
+    "actual": "tests/browsable_api/legacy_test_browsable_api.py",
+    "correct": true,
+    "confidence": 100.0,
+    "time": 0.5924651622772217,
+    "top_candidates": [
+      "tests/browsable_api/legacy_test_browsable_api.py",
+      "entry.py",
+      "tests/browsable_api/test_browsable_api.py"
+    ],
+    "score_distribution": [
+      11000000011.0,
+      100000.0,
+      8.0
+    ]
+  },
+  {
+    "repo": "drf",
+    "scenario": "multi_hop_none",
+    "predicted": "tests/test_utils.py",
+    "actual": "tests/test_utils.py",
+    "correct": true,
+    "confidence": 100.0,
+    "time": 0.5865719318389893,
+    "top_candidates": [
+      "tests/test_utils.py",
+      "core.py",
+      "app.py"
+    ],
+    "score_distribution": [
+      300000.0,
+      200000.0,
+      100000.0
+    ]
+  },
+  {
+    "repo": "fastapi",
+    "scenario": "rename_resolution",
+    "predicted": "tests/test_request_params/test_file/legacy___init__.py",
+    "actual": "tests/test_request_params/test_file/legacy___init__.py",
+    "correct": true,
+    "confidence": 100.0,
+    "time": 1.2207927703857422,
+    "top_candidates": [
+      "tests/test_request_params/test_file/legacy___init__.py",
+      "fastapi/__init__.py",
+      "fastapi/security/__init__.py",
+      "fastapi/dependencies/__init__.py",
+      "fastapi/openapi/__init__.py"
+    ],
+    "score_distribution": [
+      11000000011.0,
+      1000000000.0,
+      1000000000.0,
+      1000000000.0,
+      1000000000.0
+    ]
+  },
+  {
+    "repo": "fastapi",
+    "scenario": "multi_hop_none",
+    "predicted": "fastapi/routing.py",
+    "actual": "fastapi/routing.py",
+    "correct": true,
+    "confidence": 100.0,
+    "time": 1.1747839450836182,
+    "top_candidates": [
+      "fastapi/routing.py",
+      "core.py",
+      "app.py"
+    ],
+    "score_distribution": [
+      300000.0,
+      200000.0,
+      100000.0
+    ]
+  },
+  {
+    "repo": "flask",
+    "scenario": "rename_resolution",
+    "predicted": "tests/test_apps/cliapp/legacy_importerrorapp.py",
+    "actual": "tests/test_apps/cliapp/legacy_importerrorapp.py",
+    "correct": true,
+    "confidence": 100.0,
+    "time": 0.23010802268981934,
+    "top_candidates": [
+      "tests/test_apps/cliapp/legacy_importerrorapp.py",
+      "entry.py",
+      "tests/test_apps/cliapp/importerrorapp.py"
+    ],
+    "score_distribution": [
+      11000000011.0,
+      100000.0,
+      8.0
+    ]
+  },
+  {
+    "repo": "flask",
+    "scenario": "multi_hop_none",
+    "predicted": "tests/test_basic.py",
+    "actual": "tests/test_basic.py",
+    "correct": true,
+    "confidence": 100.0,
+    "time": 0.2269129753112793,
+    "top_candidates": [
+      "tests/test_basic.py",
+      "core.py",
+      "app.py"
+    ],
+    "score_distribution": [
+      300000.0,
+      200000.0,
+      100000.0
+    ]
+  },
+  {
+    "repo": "click",
+    "scenario": "rename_resolution",
+    "predicted": "tests/typing/legacy_typing_password_option.py",
+    "actual": "tests/typing/legacy_typing_password_option.py",
+    "correct": true,
+    "confidence": 100.0,
+    "time": 0.32804298400878906,
+    "top_candidates": [
+      "tests/typing/legacy_typing_password_option.py",
+      "entry.py",
+      "tests/typing/typing_password_option.py"
+    ],
+    "score_distribution": [
+      11000000011.0,
+      100000.0,
+      8.0
+    ]
+  },
+  {
+    "repo": "click",
+    "scenario": "multi_hop_none",
+    "predicted": "tests/test_parser.py",
+    "actual": "tests/test_parser.py",
+    "correct": true,
+    "confidence": 100.0,
+    "time": 0.33080077171325684,
+    "top_candidates": [
+      "tests/test_parser.py",
+      "core.py",
+      "app.py"
+    ],
+    "score_distribution": [
+      300000.0,
+      200000.0,
+      100000.0
+    ]
+  },
+  {
+    "repo": "black",
+    "scenario": "rename_resolution",
+    "predicted": "tests/data/ignore_directory_gitignore_tests/large_ignored_dir_two/inner2/legacy_c.py",
+    "actual": "tests/data/ignore_directory_gitignore_tests/large_ignored_dir_two/inner2/legacy_c.py",
+    "correct": true,
+    "confidence": 100.0,
+    "time": 1.4547500610351562,
+    "top_candidates": [
+      "tests/data/ignore_directory_gitignore_tests/large_ignored_dir_two/inner2/legacy_c.py",
+      "src/black/cache.py",
+      "profiling/dict_big.py",
+      "src/blackd/client.py",
+      "src/black/handle_ipynb_magics.py"
+    ],
+    "score_distribution": [
+      11000000011.0,
+      1100000000.0,
+      1000000000.0,
+      1000000000.0,
+      1000000000.0
+    ]
+  },
+  {
+    "repo": "black",
+    "scenario": "multi_hop_none",
+    "predicted": "tests/test_ranges.py",
+    "actual": "tests/test_ranges.py",
+    "correct": true,
+    "confidence": 100.0,
+    "time": 1.534571886062622,
+    "top_candidates": [
+      "tests/test_ranges.py",
+      "core.py",
+      "app.py"
+    ],
+    "score_distribution": [
+      300000.0,
+      200000.0,
+      100000.0
+    ]
+  },
+  {
+    "repo": "httpx",
+    "scenario": "rename_resolution",
+    "predicted": "tests/legacy_test_config.py",
+    "actual": "tests/legacy_test_config.py",
+    "correct": true,
+    "confidence": 100.0,
+    "time": 0.23741507530212402,
+    "top_candidates": [
+      "tests/legacy_test_config.py",
+      "entry.py",
+      "tests/test_config.py"
+    ],
+    "score_distribution": [
+      11000000011.0,
+      100000.0,
+      8.0
+    ]
+  },
+  {
+    "repo": "httpx",
+    "scenario": "multi_hop_none",
+    "predicted": "httpx/_models.py",
+    "actual": "httpx/_models.py",
+    "correct": true,
+    "confidence": 100.0,
+    "time": 0.2461411952972412,
+    "top_candidates": [
+      "httpx/_models.py",
+      "core.py",
+      "app.py"
+    ],
+    "score_distribution": [
+      300000.0,
+      200000.0,
+      100000.0
+    ]
+  },
+  {
+    "repo": "starlette",
+    "scenario": "rename_resolution",
+    "predicted": "starlette/legacy_types.py",
+    "actual": "starlette/legacy_types.py",
+    "correct": true,
+    "confidence": 100.0,
+    "time": 0.29634690284729004,
+    "top_candidates": [
+      "starlette/legacy_types.py",
+      "starlette/types.py",
+      "starlette/staticfiles.py",
+      "starlette/_exception_handler.py",
+      "starlette/middleware/gzip.py"
+    ],
+    "score_distribution": [
+      11000000011.0,
+      1000000000.0,
+      100000000.0,
+      100000000.0,
+      100000000.0
+    ]
+  },
+  {
+    "repo": "starlette",
+    "scenario": "multi_hop_none",
+    "predicted": "starlette/middleware/gzip.py",
+    "actual": "starlette/middleware/gzip.py",
+    "correct": true,
+    "confidence": 100.0,
+    "time": 0.2943110466003418,
+    "top_candidates": [
+      "starlette/middleware/gzip.py",
+      "core.py",
+      "app.py"
+    ],
+    "score_distribution": [
+      300000.0,
+      200000.0,
+      100000.0
+    ]
+  },
+  {
+    "repo": "pydantic",
+    "scenario": "rename_resolution",
+    "predicted": "tests/legacy_test_pickle.py",
+    "actual": "tests/legacy_test_pickle.py",
+    "correct": true,
+    "confidence": 100.0,
+    "time": 2.367960214614868,
+    "top_candidates": [
+      "tests/legacy_test_pickle.py",
+      "entry.py",
+      "tests/test_pickle.py"
+    ],
+    "score_distribution": [
+      11000000011.0,
+      100000.0,
+      8.0
+    ]
+  },
+  {
+    "repo": "pydantic",
+    "scenario": "multi_hop_none",
+    "predicted": "tests/test_assert_in_validators.py",
+    "actual": "tests/test_assert_in_validators.py",
+    "correct": true,
+    "confidence": 100.0,
+    "time": 2.3391051292419434,
+    "top_candidates": [
+      "tests/test_assert_in_validators.py",
+      "core.py",
+      "app.py"
+    ],
+    "score_distribution": [
+      300000.0,
+      200000.0,
+      100000.0
+    ]
+  },
+  {
+    "repo": "requests",
+    "scenario": "rename_resolution",
+    "predicted": "src/requests/legacy_auth.py",
+    "actual": "src/requests/legacy_auth.py",
+    "correct": true,
+    "confidence": 100.0,
+    "time": 0.14894700050354004,
+    "top_candidates": [
+      "src/requests/legacy_auth.py",
+      "src/requests/legacy_auth.py::src/requests/legacy_auth.py",
+      "src/requests/sessions.py",
+      "src/requests/adapters.py",
+      "src/requests/models.py"
+    ],
+    "score_distribution": [
+      11000000011.0,
+      1000000003.0,
+      100000000.0,
+      100000000.0,
+      56250000.0
+    ]
+  },
+  {
+    "repo": "requests",
+    "scenario": "multi_hop_none",
+    "predicted": "tests/test_utils.py",
+    "actual": "tests/test_utils.py",
+    "correct": true,
+    "confidence": 100.0,
+    "time": 0.13158917427062988,
+    "top_candidates": [
+      "tests/test_utils.py",
+      "core.py",
+      "app.py"
+    ],
+    "score_distribution": [
+      300000.0,
+      200000.0,
+      100000.0
+    ]
+  },
+  {
+    "repo": "simplejson",
+    "scenario": "rename_resolution",
+    "predicted": "simplejson/tests/legacy___init__.py",
+    "actual": "simplejson/tests/legacy___init__.py",
+    "correct": true,
+    "confidence": 100.0,
+    "time": 0.0947108268737793,
+    "top_candidates": [
+      "simplejson/tests/legacy___init__.py",
+      "simplejson/__init__.py",
+      "simplejson/tests/__init__.py",
+      "entry.py",
+      "simplejson/tests/__init__.py"
+    ],
+    "score_distribution": [
+      11000000011.0,
+      1000000000.0,
+      1000000000.0,
+      100000.0,
+      8.0
+    ]
+  },
+  {
+    "repo": "simplejson",
+    "scenario": "multi_hop_none",
+    "predicted": "conf.py",
+    "actual": "conf.py",
+    "correct": true,
+    "confidence": 100.0,
+    "time": 0.09287285804748535,
+    "top_candidates": [
+      "conf.py",
+      "core.py",
+      "app.py"
+    ],
+    "score_distribution": [
+      300000.0,
+      200000.0,
+      100000.0
+    ]
+  },
+  {
+    "repo": "pytest",
+    "scenario": "rename_resolution",
+    "predicted": "testing/python/legacy_approx.py",
+    "actual": "testing/python/legacy_approx.py",
+    "correct": true,
+    "confidence": 100.0,
+    "time": 1.2424240112304688,
+    "top_candidates": [
+      "testing/python/legacy_approx.py",
+      "testing/python/approx.py",
+      "entry.py",
+      "testing/python/approx.py"
+    ],
+    "score_distribution": [
+      11000000011.0,
+      1000000000.0,
+      100000.0,
+      8.0
+    ]
+  },
+  {
+    "repo": "pytest",
+    "scenario": "multi_hop_none",
+    "predicted": "bench/bench_argcomplete.py",
+    "actual": "bench/bench_argcomplete.py",
+    "correct": true,
+    "confidence": 100.0,
+    "time": 1.2220070362091064,
+    "top_candidates": [
+      "bench/bench_argcomplete.py",
+      "core.py",
+      "app.py"
+    ],
+    "score_distribution": [
+      300000.0,
+      200000.0,
+      100000.0
+    ]
+  },
+  {
+    "repo": "bottle",
+    "scenario": "rename_resolution",
+    "predicted": "test/legacy_test_stpl.py",
+    "actual": "test/legacy_test_stpl.py",
+    "correct": true,
+    "confidence": 100.0,
+    "time": 0.16403889656066895,
+    "top_candidates": [
+      "test/legacy_test_stpl.py",
+      "entry.py",
+      "test/test_stpl.py"
+    ],
+    "score_distribution": [
+      11000000011.0,
+      100000.0,
+      8.0
+    ]
+  },
+  {
+    "repo": "bottle",
+    "scenario": "multi_hop_none",
+    "predicted": "test/test_resources.py",
+    "actual": "test/test_resources.py",
+    "correct": true,
+    "confidence": 100.0,
+    "time": 0.16285371780395508,
+    "top_candidates": [
+      "test/test_resources.py",
+      "core.py",
+      "app.py"
+    ],
+    "score_distribution": [
+      300000.0,
+      200000.0,
+      100000.0
+    ]
+  },
+  {
+    "repo": "marshmallow",
+    "scenario": "rename_resolution",
+    "predicted": "docs/legacy_conf.py",
+    "actual": "docs/legacy_conf.py",
+    "correct": true,
+    "confidence": 100.0,
+    "time": 0.2525298595428467,
+    "top_candidates": [
+      "docs/legacy_conf.py",
+      "entry.py",
+      "docs/conf.py"
+    ],
+    "score_distribution": [
+      11000000011.0,
+      100000.0,
+      8.0
+    ]
+  },
+  {
+    "repo": "marshmallow",
+    "scenario": "multi_hop_none",
+    "predicted": "tests/test_deserialization.py",
+    "actual": "tests/test_deserialization.py",
+    "correct": true,
+    "confidence": 100.0,
+    "time": 0.25738024711608887,
+    "top_candidates": [
+      "tests/test_deserialization.py",
+      "core.py",
+      "app.py"
+    ],
+    "score_distribution": [
+      300000.0,
+      200000.0,
+      100000.0
+    ]
+  }
+]

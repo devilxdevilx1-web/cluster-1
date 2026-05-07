@@ -1,0 +1,21 @@
+--- SOVEREIGN AUDIT: /Users/kanchetidevieswar/hybrid/fbc7_real_test/python_original ---
+MEM%: 1855.67
+CTRL%: 2422.68
+ARITH%: 1804.124
+ADDR%: 1082.474
+MOV%: 2371.134
+CMP%: 360.825
+BIT%: 0.0
+FLOAT%: 0.0
+SIMD%: 0.0
+SEC%: 0.0
+SYS%: 0.0
+vocab_size: 28
+instr_entropy: 3.6104
+top500_tri_cover: 10000.0
+unique_3grams: 124
+unique_cat_3grams: 79
+total_instrs: 194
+top_cat_codon: ADDR → ARITH → MOV
+halt_sig: str → cbnz → ldp → ldp → add
+struct_hash: e61368ce45fb69ca

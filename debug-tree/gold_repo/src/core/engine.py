@@ -1,0 +1,1 @@
+from src.utils.logic import deep_compute\ndef run():\n    deep_compute(10)\n

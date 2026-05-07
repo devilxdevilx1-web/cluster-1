@@ -1,0 +1,1 @@
+def deep_compute(x):\n    return x / 0\n

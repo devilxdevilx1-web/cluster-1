@@ -1,0 +1,1 @@
+def connect(): raise ConnectionError('Failed')

@@ -1,0 +1,21 @@
+--- SOVEREIGN AUDIT: /usr/bin/clang ---
+MEM%: 32.414
+CTRL%: 22.069
+ARITH%: 15.862
+ADDR%: 9.655
+MOV%: 12.414
+CMP%: 4.138
+BIT%: 1.379
+FLOAT%: 0.0
+SIMD%: 0.0
+SEC%: 1.379
+SYS%: 0.0
+vocab_size: 25
+instr_entropy: 3.9187
+top500_tri_cover: 100.0
+unique_3grams: 101
+unique_cat_3grams: 69
+total_instrs: 145
+top_cat_codon: MEM → MEM → MEM
+halt_sig: b.ne → sub → ldp → ldp → ldp
+struct_hash: d8b2cc5022d2e7e5

@@ -1,0 +1,2 @@
+ReferenceError: calculate is not defined
+    at Object.<anonymous> (/Users/kanchetidevieswar/debug-tree/test_multilang/app.js:1:1)
